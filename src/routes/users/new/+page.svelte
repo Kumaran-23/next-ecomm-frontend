@@ -51,7 +51,7 @@
   }
 </script>
 
-<h1 class="text-center text-xl">Create an Account to Post a Job</h1>
+<h1 class="text-center text-xl">Create an Account</h1>
 <div class="text-center hover">
     <a class="link-hover italic text-xs" href="/login">Already have an account? Click here to login instead!.</a>
 </div>
