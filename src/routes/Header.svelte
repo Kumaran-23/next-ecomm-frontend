@@ -16,13 +16,14 @@
     goto('/images/new')
   }
 </script>
-<div class="flex mb-10">
+<div class="bg-gradient-to-r  from-purple-500 via-fuchsia-500 to-pink-500">
+  <div class="flex ml-2">
   <div class="mr-auto">
     <button class="btn btn-primary hover:btn-accent">
-    <a href="/">Home</a>
+    <a href='/'>Home</a>
   </button>
   </div>
-  <div class="flex flex-wrap justify-end ">
+  <div class="flex flex-wrap justify-end">
   {#if $isLogged}
     <button class="btn mr-6 btn-primary hover:btn-accent" on:click={goToImageUpload}>Upload Image</button>
   <!-- {:else}
@@ -39,4 +40,5 @@
     </button>
   {/if}
   </div>
+</div>
 </div>

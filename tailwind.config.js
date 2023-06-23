@@ -6,7 +6,7 @@ export default {
   },
   plugins: [require("daisyui"), require('@tailwindcss/typography'),],
   daisyui: {
-    themes: ["retro", "acid", "coffee"],
+    themes: ["light", "dark", "coffee"],
     base: true,
       styled: true,
       utils: true,
