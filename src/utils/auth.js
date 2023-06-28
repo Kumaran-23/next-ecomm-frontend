@@ -4,7 +4,8 @@ import { writable } from 'svelte/store';
 export const isLogged = writable(false);
 
 const emptyAuth = {
-    "accessToken": ""
+    "accessToken": "",
+    "userId": ""
 }
 
 isLogged.subscribe(value => {
@@ -61,7 +62,8 @@ export async function authenticateUser(email, password) {
   const res = await resp.json();
   if (resp.status === 200) {
     localStorage.setItem("auth", JSON.stringify({
-        'accessToken': res.accessToken
+        'accessToken': res.accessToken,
+        'userId': res.userId,
 
     }));
     //isLogged.login;

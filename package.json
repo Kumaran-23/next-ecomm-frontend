@@ -29,6 +29,7 @@
 	"dependencies": {
 		"humanize": "^0.0.9",
 		"humanize-plus": "^1.8.2",
+		"stripe": "^12.10.0",
 		"svelte-markdown": "^0.2.3"
 	}
 }

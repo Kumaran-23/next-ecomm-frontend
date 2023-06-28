@@ -33,7 +33,8 @@
     
 </script>
 
-<h1 class="text-center text-2xl mt-5 font-bold sm:text-3xl">Login</h1>
+<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 pb-[173px]">
+<h1 class="text-center text-2xl pt-[150px] font-bold sm:text-3xl">Login</h1>
 <div class="flex justify-center items-center mt-8 ">
     <form on:submit={signIn} class="w-1/3">
 	<div class="form-control w-full">
@@ -58,7 +59,7 @@
             </label>
         {/if}
 	</div>
-    <div class="form-control w-full mt-4">
+    <div class="form-control w-full mt-10">
             {#if clicked}
                 <button class="btn loading btn-primary hover:btn-accent">Login</button>
             {:else}
@@ -69,4 +70,5 @@
     	<a class="link-hover italic text-xs" href="/users/new">Don't have an account yet? Click here to sign-up instead!.</a>
 	</div>
 </form>
+</div>
 </div>
