@@ -48,7 +48,7 @@
 	<script src="/aws-sdk-s3.min.js"></script>
 </svelte:head>
 
-<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 pb-[60px]">
+<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-300%">
 	<h1 class="text-2xl text-center font-bold pt-20">Upload Image For Sale</h1>
 	<div
 		class="flex justify-center items-center bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500"
