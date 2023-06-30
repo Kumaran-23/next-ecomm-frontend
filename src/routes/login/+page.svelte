@@ -33,8 +33,8 @@
     
 </script>
 
-<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 pb-[173px]">
-<h1 class="text-center text-2xl pt-[150px] font-bold sm:text-3xl">Login</h1>
+<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 min-h-screen">
+<h1 class="text-center text-2xl font-bold sm:text-3xl">Login</h1>
 <div class="flex justify-center items-center mt-8 ">
     <form on:submit={signIn} class="w-1/3">
 	<div class="form-control w-full">
