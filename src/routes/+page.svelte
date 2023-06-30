@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 bg-300%">
+<div class="bg-gradient-to-r from-purple-500 via-fuchsia-500 to-pink-500 min-h-screen">
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 mx-auto pt-20 pb-10" style="width: 1200px;">
   {#each data.images as image}
     <div class="card hover:transition delay-150 hover:-translate-y-10 shadow-xl shadow-sky-200 hover:shadow-indigo-600 flex flex-col justify-between">
